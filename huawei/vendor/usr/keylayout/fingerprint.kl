@@ -8,15 +8,13 @@
 # as published by the Free Software Foundation.
 #
 
-#  "click"
-key 28    ENTER
+# Physical home button / fingerprint sensor click.
+key 28    HOME
+key 174   HOME
 
-#  "finger wakeup"
-key 111   KEYCODE_FINGERPRINT_DOUBLECLICK
-key 105   KEYCODE_FINGERPRINT_LEFT
-key 106   KEYCODE_FINGERPRINT_RIGHT
-key 108   KEYCODE_FINGERPRINT_DOWN
-key 103   KEYCODE_FINGERPRINT_UP
-key 174   KEYCODE_FINGERPRINT_CLICK
-
-
+# Navigation gestures emitted by the fingerprint sensor.
+key 105   DPAD_LEFT
+key 106   DPAD_RIGHT
+key 108   DPAD_DOWN
+key 103   DPAD_UP
+key 111   FORWARD_DEL
