@@ -9,8 +9,8 @@
 #
 
 # Physical home button / fingerprint sensor click.
-key 28    HOME
-key 174   HOME
+key 28    HOME          VIRTUAL
+key 174   HOME          VIRTUAL
 
 # Navigation gestures emitted by the fingerprint sensor.
 key 105   DPAD_LEFT
